@@ -1,0 +1,256 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+/* Custom Utilites */
+body .fs-12p {
+  font-size: 12px;
+}
+
+body .fs-14p {
+  font-size: 14px;
+}
+
+body .fs-18p {
+  font-size: 18px;
+}
+
+body .fs-28p {
+  font-size: 28px;
+}
+
+body .min-h-130p {
+  min-height: 130px;
+}
+
+.custom-img-height {
+  max-height: 520px;
+}
+
+.text-dark-gray {
+  color: #333333;
+}
+
+.bg-deep-blue {
+  background-color: #6641ee;
+}
+
+.bg-light-brown {
+  background-color: #e3c034;
+}
+
+.bg-deep-pink {
+  background-color: #e74c3c;
+}
+
+.bg-medium-blue {
+  background-color: #38ade8;
+}
+
+.bg-ufo-green {
+  background-color: #32d255;
+}
+
+.bg-light-red {
+  background-color: #f08f64;
+}
+
+/* Long Dash */
+.long-dash {
+  display: inline-block;
+  height: 1px;
+  width: 14px;
+  background-color: #1a1a1a;
+}
+
+/* Main styling Start */
+
+body {
+  background-color: #f9f9f9 !important;
+  /* min-height: 100vh !important; */
+}
+
+/* Header Navbar */
+.custom-nav-ul li {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.custom-nav-ul li:first-child {
+  margin-right: 15px;
+}
+
+.custom-nav-ul li:first-child {
+  margin-right: 0px;
+}
+
+.custom-nav-ul li a {
+  font-size: 14px;
+}
+
+/* Hero Section */
+.trending-item {
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 20%);
+  transition: border 0.3s ease-in-out;
+}
+
+.trending-item:nth-last-of-type {
+  margin-bottom: 0;
+}
+
+.trending-item:hover {
+  border-bottom-color: rgba(0, 0, 0, 1);
+}
+
+/* Categories Section */
+
+.category-item-wrapper {
+  height: 280px;
+  width: 100%;
+}
+
+.category-item-wrapper img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-bg-blur {
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 20%);
+}
+
+/* Editors Pick Section */
+.editors-pick-item {
+  border-top: 1px solid rgba(0, 0, 0, 10%);
+}
+
+/* Latest News Section */
+.custom-latest-news-list-item {
+  margin-bottom: 1rem;
+}
+
+.custom-latest-news-list-item:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Technology Section */
+.custom-gradient-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 70%,
+    rgba(0, 0, 0, 84%) 100%
+  );
+}
+
+/* Advertise with us */
+.advertise-section .advertise-para-custom-width {
+  max-width: 800px;
+}
+
+/* Podcast Section VR image */
+.max-h-570p {
+  max-height: 570px;
+}
+
+.max-h-275p {
+  max-height: 275px;
+}
+
+/* Footer */
+.custom-mail-input input {
+  outline: none;
+}
+
+.custom-mail-input input:focus {
+  outline: none;
+}
+
+.custom-subscribe-btn {
+  outline: none;
+  border: none;
+  transition: all 0.25s ease-in-out;
+}
+
+.custom-subscribe-btn:hover {
+  background-color: white;
+}
+
+footer .custom-top-light-border {
+  border-top: 1px solid #fff3;
+}
+
+footer .custom-link-style {
+  color: #999999;
+}
+
+footer .custom-link-style:hover {
+  color: white;
+}
+
+.custom-social-links ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.custom-social-links ul li a {
+  color: #d9d9d9;
+  text-decoration: none;
+  font-size: 1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 20%);
+  padding-bottom: 1rem;
+  transition: border 0.3s ease-in-out;
+}
+
+.custom-social-links ul li a:hover {
+  border-bottom-color: #ffffff;
+}
+
+.custom-social-links ul li .icon-box {
+  height: 35px;
+  width: 35px;
+  background-color: #2a2a2a;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.custom-social-links ul li a .arrow-icon {
+  position: absolute;
+  right: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+.custom-social-links ul li:hover a .arrow-icon {
+  transform: rotate(-45deg);
+}
+
+footer .footer-other-links {
+  border-left: 1px solid rgba(255, 255, 255, 20%);
+}
+
+/* media for the footer bottom links */
+@media screen and (max-width: 768px) {
+  footer .footer-other-links {
+    border: none;
+  }
+}
+
+.footer-other-links a {
+  color: #999999;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.copyright-text {
+  color: #999999;
+  font-size: 14px;
+}
